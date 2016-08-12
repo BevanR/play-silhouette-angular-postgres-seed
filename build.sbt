@@ -23,6 +23,11 @@ libraryDependencies ++= Seq(
   "com.iheart" %% "ficus" % "1.2.6",
   "com.adrianhurt" %% "play-bootstrap" % "1.0-P25-B3",
   "com.mohiva" %% "play-silhouette-testkit" % "4.0.0" % "test",
+  "com.typesafe.slick" % "slick_2.11" % "3.1.1",
+  "com.typesafe.play" %% "play-slick" % "2.0.2",
+  "com.typesafe.play" %% "play-slick-evolutions" % "2.0.2",
+  "org.postgresql" % "postgresql" % "9.4-1200-jdbc41",
+  evolutions,
   cache,
   filters
 )

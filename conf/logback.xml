@@ -32,4 +32,16 @@
         <appender-ref ref="ASYNCSTDOUT"/>
     </root>
 
+    <logger name="slick.jdbc" level="DEBUG">
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <logger name="play.api.db.slick" level="WARN" >
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <logger name="scala.slick" level="SQL" >
+        <appender-ref ref="STDOUT" />
+    </logger>
+
 </configuration>
